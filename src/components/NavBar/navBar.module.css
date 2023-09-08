@@ -1,0 +1,23 @@
+.container{
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.social{
+    gap: 10px;
+    display: flex;
+    flex: 1;
+}
+.logo{
+
+    flex: 1;
+    text-align: center;
+    border: 2px solid red;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
