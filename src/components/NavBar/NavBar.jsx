@@ -16,9 +16,9 @@ const NavBar = () => {
       <div className={style.logo}>RoBlog</div>
       <div className={style.links}>
         <ThemeToggle></ThemeToggle>
-        <Link href='/'>Home</Link>
-        <Link href='/'>Contact</Link>
-        <Link href='/'>About</Link>
+        <Link href='/' className={style.link}>Home</Link>
+        <Link href='/' className={style.link}>Contact</Link>
+        <Link href='/' className={style.link}>About</Link>
         <AuthLinks></AuthLinks>
       </div>
     </div>
